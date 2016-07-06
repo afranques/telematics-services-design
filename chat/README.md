@@ -1,6 +1,6 @@
 # Chat
 
-Multi threaded instant messaging application in Java. Capable of sending and receiving messages between two machines across the network, as well as file transfers.
+Multi threaded instant messaging application in Java. Capable of sending and receiving messages between two machines across the network, as well as performing file transfers.
 
 When the application starts, it asks for the IP address of the other end, and although it could also ask for the port number used, this has already been predefined in the code. The transport protocol chosen for the exchange of packets is TCP. The packets corresponding to a possible file transfer are sent through the same socket (instead of using a new one) than the ones corresponding to the regular chat messages, therefore the code has to deal with distinguishing both packet types. The file transfer occurs in a background thread, created at the moment of the file transfer startup (when **@rchivo** is invoked), allowing this way that both ends keep chatting in foreground.
 
