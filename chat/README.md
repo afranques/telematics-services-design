@@ -4,9 +4,11 @@ Multi threaded instant messaging application in Java. Capable of sending and rec
 
 ### Screenshots:
 
-- Client
+- **Client**
+
 ![Client](/chat/screenshots/chat_conversation_screenshot_client.png "Client")
 
-- Server
+- **Server**
+
 ![Server](/chat/screenshots/chat_conversation_screenshot_server.png "Server") 
 
