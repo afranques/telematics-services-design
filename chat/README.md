@@ -11,7 +11,7 @@ _A fairly detailed description of the code structure can be found at memoria.pdf
 
 ### Screenshots:
 
-The screenshots show a conversation between two users; a _client_ and a _server_. Also, the _client_ sends the file _lorem_ipsum.txt_ to the _server_, who saves the file as _lorem_ipsum_rx.txt_. Finally, the _server_ terminated the conversation and the last message from _client_ is never received by _server_.
+The screenshots show a conversation between two users; a _client_ and a _server_. Also, the _client_ sends the file _lorem_ipsum.txt_ to the _server_, who saves the file as _lorem_ipsum_rx.txt_. Finally, the _server_ terminates the conversation and the last message from _client_ is never received by _server_.
 
 - **Client**
 
